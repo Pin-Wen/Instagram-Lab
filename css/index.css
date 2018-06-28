@@ -1,7 +1,7 @@
 body {
 	font-family: 'PT Sans', sans-serif;
-	background-color: #F3EAFF;
-	color: #77727C;
+	background-color: #FCF9FF;
+	color: #AEACAF;
 	margin: 0px;
 	padding: 0px;
 	}
@@ -127,7 +127,7 @@ input {
 	width: 100%;
     padding: 10px;
     margin: 5px;
-    background-color: #F3EAFF;
+    background-color: #FCF9FF;
     box-sizing: border-box;
 	}
 

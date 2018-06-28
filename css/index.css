@@ -1,8 +1,3 @@
-body {
-	margin: 0px;
-	padding: 0px;
-	}
-
 #wrapper {
 	width: 1280px;
 	padding: 50px 200px;
@@ -34,7 +29,10 @@ body {
 
 body {
 	font-family: 'PT Sans', sans-serif;
-	color: #B4B8AB
+	background-color: #F3EAFF;
+	color: #77727C;
+	margin: 0px;
+	padding: 0px;
 	}
 
 h2 {
@@ -43,9 +41,9 @@ h2 {
 
 #header {
 	padding-top: 3px;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	padding-left: 20px;
-	line-height: 0.1;
+	line-height: 0;
 	background: linear-gradient(to right, #FE6847 , #E63462 , #5C164E);
 	color: white;
 	}
@@ -60,12 +58,15 @@ h2 {
 
 .alignright {
 	float: right;
-	padding: 20px;
-	border: 2px solid white;
-	border-radius: 25%;
-	width: 20px;
-    height: 0px; 
-    margin: 20px;
+	}
+
+#style {
+	padding-right: 20px;
+	border: 1.25px solid white;
+	border-radius: 15%;
+	width: 30px;
+    height: 20px; 
+    margin: 0px 20px;
 	}
 
 #footer a {
@@ -76,17 +77,19 @@ h2 {
 .center {
     font-family: 'PT Sans', sans-serif;
     text-align: center;
-    padding-left: 100px;
+    padding: 0px 150px;
+    margin: 0px;
 	}
 
 .box {
-	width: 300px;
+	width: 350px;
     height: 700px;
     padding: 20px;
     border: 1px;
     border-style: ridge;
-    border-color: #B4B8AB;
+    border-color: #B4B8AB; 
     text-align: center;
+    background-color: white;
     box-sizing: border-box;
 	}
 
@@ -99,4 +102,12 @@ h2 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+	}
+
+input {
+	width: 100%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #F3EAFF;
+    box-sizing: border-box;
 	}
